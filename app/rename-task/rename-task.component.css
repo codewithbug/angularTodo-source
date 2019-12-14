@@ -1,0 +1,31 @@
+.renameContainer{
+    margin:5% auto 0 auto;
+}
+
+.renameContainer>p{
+    text-align:center;
+    font-size:23px;
+    font-weight:bold;
+}
+.renameContainer>input{
+    width:74%;
+    border:none;
+    border-bottom:1px solid lightgrey;
+    margin-top:3%;
+    outline:none;
+    padding:0 0 1% 2%;
+}
+
+.renameContainer>button{
+    width:22%;
+    border:none;
+    padding:1px 0;
+    margin-left:4%;
+    background: #00C853;
+    color: white;
+    padding: 1% 0;
+}
+
+span{
+    margin-left:2%;
+}

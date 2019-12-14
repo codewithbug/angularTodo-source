@@ -1,0 +1,40 @@
+.taskList{
+    text-align:center;
+    margin:auto;
+    font-size:20px;
+    padding: 2% 0;
+    cursor:pointer;
+    position:relative;
+}
+
+
+.clickedTask{
+    text-align:center;
+    margin:auto;
+    font-size:20px;
+    padding: 2% 0;
+    cursor:pointer;
+    color:#00E676;
+    position:relative;
+}
+
+.deleteButton{
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+    background: white;
+    color: black;
+    width: 30px;
+    border-radius: 100px;
+    transition:background 0.2s;
+}
+
+.deleteButton:hover{
+    background: red;
+    color: white;
+}
+
+.taskListContainer{
+    margin:6% auto 0 auto;
+    box-shadow:0 0 3px 0 lightgrey;
+}

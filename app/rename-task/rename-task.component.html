@@ -1,0 +1,5 @@
+<div class="col-6 renameContainer" *ngIf="taskWillUpdate()">
+    <p class="col-12">rename task: <span>{{newTaskName}}</span></p>
+    <input #newName  [(ngModel)]="newTaskName" placeholder="new task name"
+    ><button (click)="saveNewName()">save</button>
+</div>

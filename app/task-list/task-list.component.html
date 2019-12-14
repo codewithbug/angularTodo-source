@@ -1,0 +1,7 @@
+<div class="col-6 taskListContainer">
+    <div [ngClass]="{'col-12 clickedTask' : taskService.clickedElementIndex==a,'col-12 taskList' : taskService.clickedElementIndex!=a}"  *ngFor="let task of tasks;let a=index" (click)="setRenamedIndex(a,task)">{{task.taskName}}
+    <p class="deleteButton" (click)="removeTask(a)">x</p>
+    </div>
+</div>
+
+

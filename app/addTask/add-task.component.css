@@ -1,0 +1,27 @@
+.addTaskContainer{
+    margin:auto;
+    padding:0;
+}
+.addTask{
+    margin:auto;
+    padding:0;
+}
+#newTask{
+    width:74%;
+    border:none;
+    border-bottom:1px solid lightgrey;
+    margin-top:15%;
+    outline:none;
+    padding:0 0 1% 2%;
+
+}
+
+.addTask>button{
+    width:22%;
+    border:none;
+    padding:1px 0;
+    margin-left:4%;
+    background: #00C853;
+    color: white;
+    padding: 1% 0;
+}
